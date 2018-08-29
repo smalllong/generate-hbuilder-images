@@ -4,7 +4,7 @@ var rename = require('gulp-rename')
 
 
 gulp.task('icon-ios', () => {
-	var sizes = [29, 40, 50, 57, 58, 72, 76, 80, 87, 100, 114, 120, 144, 152, 180]
+	var sizes = [40, 58, 60, 80, 87, 120, 180, 1024]
 	sizes.forEach((size, index) => {
 		gulp.src('icon.png')
 			.pipe(imageResize({
